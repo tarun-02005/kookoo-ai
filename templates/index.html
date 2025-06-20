@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Sound Classifier</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐦 Bird Sound Classifier</h1>
+    <p class="tagline">🎧 Upload bird sounds and get instant predictions!</p>
+
+    <div class="form-section">
+      <h2>🔍 Classify Bird Sound</h2>
+      <form action="/classify" method="post" enctype="multipart/form-data">
+        <input type="file" name="audio" accept=".wav" required>
+        <button type="submit">Upload & Classify</button>
+      </form>
+    </div>
+
+    <div class="form-section highlight">
+        <h2>🤝 Contribute a New Bird Sound</h2>
+        <p>Help improve our model by sharing your own labeled audio! 🐥</p>
+        <a href="/contribute" class="contribute-btn">Go to Suggestion Page ➕</a>
+    </div>
+
+
+    <div class="form-section">
+      <h2>📘 How It Works</h2>
+      <details>
+        <summary>📂 View Instructions</summary>
+        <ul class="instructions">
+          <li>1️⃣ Upload a bird sound in <strong>.wav</strong> format.</li>
+          <li>2️⃣ Model converts it into a spectrogram and classifies it.</li>
+          <li>3️⃣ See the prediction and confidence instantly.</li>
+          <li>4️⃣ Contribute new sounds to improve the AI. 🧠</li>
+        </ul>
+      </details>
+    </div>
+
+    <footer>
+      <p>👨‍💻 Build by <strong>Tarun Bansal</strong></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/tarun-kumar-359150257" >Connect on LinkedIn</a></p>
+    </footer>
+  </div>
+</body>
+</html>

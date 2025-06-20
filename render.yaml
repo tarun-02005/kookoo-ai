@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kookoo-ai
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: 10000
+    plan: free

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggest a Bird Sound</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Suggest a New Bird Sound</h1>
+    <p>Help our model learn! Submit your own bird sound sample 🎵</p>
+    <form action="/suggest" method="post" enctype="multipart/form-data">
+      <input type="text" name="suggest_label" placeholder="Enter bird name (e.g., sparrow)" required>
+      <input type="file" name="suggest_audio" accept=".wav" required>
+      <button type="submit">Submit Contribution ✅</button>
+    </form>
+    <a href="/">🔙 Go Back Home</a>
+  </div>
+</body>
+</html> 

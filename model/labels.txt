@@ -1,0 +1,7 @@
+birds_chirping
+canary
+chirping_birds
+crow
+hen
+owl
+rooster

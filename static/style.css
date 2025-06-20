@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-top: 30px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.form-section:hover {
+  transform: scale(1.02);
+  background-color: rgba(255,255,255,0.15);
+}
+
+input[type="text"], input[type="file"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00c9a7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #02b3a2;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #e0f7fa;
+}
+
+.instructions {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  line-height: 1.8em;
+  font-size: 0.95rem;
+}
+
+.highlight {
+  background: rgba(0, 255, 200, 0.15);
+  border: 1px dashed #00ffd5;
+}
+
+.contribute-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #ffd166;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.contribute-btn:hover {
+  background: #fcbf49;
+  color: #000;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #eee;
+}
+
+details summary {
+  cursor: pointer;
+  padding: 10px;
+  background: #3a8ee6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #f0f8ff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ffd166;
+}
